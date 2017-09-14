@@ -35,7 +35,7 @@ debounce：
 ## 实现
 
 防抖：
-```javascript
+```js
 function _debounce(func, wait) {
     let timer;
     return () => {
